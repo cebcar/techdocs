@@ -35,19 +35,11 @@ in other /usr/local folders, e.g. /usr/local/bin
 
 ### Homebrew Configuration
 #### GitHub Personal Access Token for Homebrew (TODO: finish)
-During udemy course "dotfiles ...", our first cask attempt was for chrome.
-We got this message as part of an error response:
 Create a GitHub personal access token:
 ``` zsh
   https://github.com/settings/tokens/new?scopes=gist,repo,workflow&description=Homebrew
   echo 'export HOMEBREW_GITHUB_API_TOKEN=your_token_here' >> ~/.zshrc
 ```
-But when did that, we got
-``` plaintext
-zsh: no matches found: https://github.com/settings/tokens/new?scopes=gist,repo,workflow
-```
-Note that gist, repo, and workflow are all current valid sets of repository permissions.
-
 ### Homebrew Automation
 ### Homebrew Shortcuts
 ### Homebrew Alternatives Considered
