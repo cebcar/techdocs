@@ -44,4 +44,17 @@ link:
       stderr: true
 ```
 
+##### Symbolic Links
+*symbolic link: a file that contains a reference to another file or directory in the form of an absolute or relative path*
+
+- symlink a dotfile
+*assumes target repo folder ~/dotfiles*
+*this specific renaming convention is used by Dotbot*
+``` zsh
+cd dotfiles
+mv ~/.<name> <name>
+ln -s ~/dotfiles/<name> ~/.<name>
+```
+> NOTE: This task is normally handled by Dotbot.
+
 

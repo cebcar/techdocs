@@ -131,17 +131,6 @@ Show the commits in either side of the merge that touches a file that’s curren
 
 add `-p` to get just the diffs to the file that ended up in conflict
 
-### Symbolic Links
-*a symbolic link: a file that contains a reference to another file or directory in the form of an absolute or relative 
-path*
-
-- symlink a dotfile
-*assumes target repo folder ~/dotfiles*
-*this specific renaming convention is used by DotBot*
-> cd dotfiles
-> mv ~/.zshrc zshrc
-> ln -s ~/dotfiles/zshrc ~/.zshrc
-
 ### Rewriting History
 [Git Book - Rewriting History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
 
