@@ -35,7 +35,12 @@ GitHub : ‘cebcar’ : New
 
 - README.md: check header
 
-### OAuth Tokens
+### Clone Repository
+- create GitHub Personal Access Token with permission for `repo`
+> cd ~
+> git clone https://carolclark:{githubPAT}@github.com/cebcar/{repoName}.git
+
+### Personal Access (OAuth) Tokens
 *from [Access Tokens @ oauth.com](https://www.oauth.com/oauth2-servers/access-tokens/)*
 ``` text
 Access tokens are the thing that applications use to make API requests on behalf of a user.
@@ -45,6 +50,7 @@ Access tokens must be kept confidential in transit and in storage.
 ```
 
 We use Personal Access Tokens for:
+  - clone repository
   - [access for products](https://docs.github.com/en/developers/apps/about-apps#about-oauth-apps), including JetBrains apps, to our repositories, and
   - interaction with GitHub via automated scripts; see [Git automation with OAuth tokens](https://docs.github.com/en/github/extending-github/git-automation-with-oauth-tokens)
 
