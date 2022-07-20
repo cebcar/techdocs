@@ -56,6 +56,9 @@ git core.attributesfile:
   > git commit --amend [--no-edit]<br><br>
     - edit commit message if indicated
 
+- unstage a commit
+> git rm --cached <filename>
+
 - squash last N commits
 > git rebase -i HEAD~N
 
