@@ -61,11 +61,15 @@ We use Personal Access Tokens for:
     - for read access: repo; read:repo-hook
 
 #### Create Personal Access Token
+###### GUI
 - GitHub: [create a personal access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token):
   - from [GitHub Developer Settings](#access-github-developer-settings): Settings > Developer Settings > Personal Access Tokens
     - set [Personal Access Token Permissions](#personal-access-token-permissions)
     - Generate New Token
 
+##### Script TODO
+for automated operation, we need to be able to script this process
+currently, it looks as if SSH access is the way; see [GitHub: add key to ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 ### Tasks
 #### Access GitHub Repository Settings
 - from repo button bar: 'Settings'
