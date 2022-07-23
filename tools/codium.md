@@ -29,9 +29,13 @@ EOF
 - Source Control	rsG
 - Run &amp; Debug	scD
 - Extensions		scX
+- Custom
+  - switch keyboard focus to Terminal
+~~~ json
+"key": "ctrl+`","command":"workbench.action.terminal.focus",
+~~~
 
 ### Launching from the command line
 - find Shell Commands
   - Command Commands: Palette (csP): search for "shell"
     - Shell Command: install 'codium' command in PATH
-
